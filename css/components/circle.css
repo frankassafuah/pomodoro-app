@@ -1,0 +1,12 @@
+.main-circle {
+  height: 410px;
+  width: 410px;
+  background-color: linear-gradient(315deg, #2e325a 0%, #0e112a 100%);
+  box-shadow: -50px -50px 100px #272c5a, 50px 50px 100px #121530;
+  border-radius: 50%;
+  border-width: 22px;
+  border-color: linear-gradient(315deg, #2e325a 0%, #0e112a 100%);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}

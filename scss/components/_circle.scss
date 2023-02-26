@@ -1,0 +1,45 @@
+.main-circle {
+  height: 410px;
+  width: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: $white;
+
+  .outer-circle {
+    width: 366px;
+    height: 366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: $dark;
+
+    .inner-circle {
+      width: 339px;
+      height: 339px;
+      border-radius: 50%;
+      background-color: $primary;
+      position: relative;
+      display: grid;
+      place-items: center;
+      
+      .timer-container {
+        color: #ffff;
+        display: flex;
+        justify-content: center;
+        z-index: 1
+      }
+    }
+  }
+}
+
+.inner-circle:before {
+  content: "";
+  position: absolute;
+  height: 326px;
+  width: 326px;
+  background-color: $dark;
+  border-radius: 50%;
+}
